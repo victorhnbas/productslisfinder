@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Montserrat:wght@300&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@100;200;300&display=swap');
+
+*{
+    border: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: 'Montserrat';
+    margin: 0;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    resize: none;
+    outline: none;
+    border: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    background-color: #111;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 523px;
+    width: 100%;
+}
+
+.divPesquisar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    border-radius: 2rem;
+}
+.divPesquisar input{
+    font-size: 2.2vh;
+}
+.divPesquisar i{
+    margin-left: 4%;
+}
+.divPesquisar button{
+    border-radius: 2rem;
+    height: 100%;
+    width: 30%;
+    margin: 0;
+    padding: 13px;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+}
+.divPesquisar button:hover{
+    background-color: rgb(8, 77, 8);
+    cursor: pointer;
+}
+
+.divCadastrar{
+    display: none;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    background-color: #111;
+    border-radius: 8px;
+}
+
+.headerCadastrar{
+    height: 22%;
+    width: 97%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.divCadastrar h1{
+    font-size: 3vh;
+    margin-bottom: 3%;
+    color: white;
+}
+
+.divCadastrar input{
+    width: 40%;
+    height: 15%;
+    border-radius: 2rem;
+    font-size: 2.2vh;
+    padding: 5px;
+    margin-bottom: 1%;
+}
+.divCadastrar button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    height: 15%;
+    width: 40%;
+    margin: 0;
+    padding: 13px;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.divCadastrar button:hover{
+    background-color: rgb(8, 77, 8);
+    cursor: pointer;
+}
+
+
+.divCadastrar i{
+    color: white;
+    font-size: 3vh;
+    margin-bottom: 3%;
+}
+.divCadastrar i:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.divCadastrar span{
+    font-size: 2vh;
+    color: wheat;
+}
+
+.divAlterar{
+    display: none;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    background-color: #111;
+    border-radius: 8px;
+}
+
+.headerAlterar{
+    height: 22%;
+    width: 97%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.divAlterar h1{
+    font-size: 3vh;
+    margin-bottom: 3%;
+    color: white;
+}
+
+.divAlterar input{
+    width: 40%;
+    height: 15%;
+    border-radius: 2rem;
+    font-size: 2.2vh;
+    padding: 5px;
+    margin-bottom: 1%;
+}
+.divAlterar button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    height: 15%;
+    width: 40%;
+    margin: 0;
+    padding: 13px;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.divAlterar button:hover{
+    background-color: rgb(8, 77, 8);
+    cursor: pointer;
+}
+
+
+.divAlterar i{
+    color: white;
+    font-size: 3vh;
+    margin-bottom: 3%;
+}
+.divAlterar i:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.divAlterar span{
+    font-size: 2vh;
+    color: wheat;
+}
+
+/*class appendchield*/
+.cardProdutos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    min-height: 30px;
+    max-height:65px ;
+    min-width: 90vw;
+    max-width: 90vh;
+    flex-wrap: wrap;
+    word-break: break-all;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    background-color: rgb(255, 255, 255);
+}
+
+.btnExcluir{
+    background-color: transparent;
+    margin: 2.2%;
+    padding: 5px;
+    font-size: 2.5vh;
+    border-radius: 5px;
+}
+.btnExcluir:hover{
+    background-color: rgb(206, 206, 206);
+    cursor: pointer;
+}
+
+.btnEditar{
+    background-color: transparent;
+    margin: 2%;
+    font-size: 2.5vh;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btnEditar:hover{
+    background-color: rgb(206, 206, 206);
+    cursor: pointer;
+}
+
+.textData{
+    color: #111;
+    font-size: 2.2vh;
+    font-weight: 600;
+}
+
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Ferramenta produtos</title>
+</head>
+<body>
+    <header>
+        <div class="divPesquisar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="input" type="text" placeholder="Pesquisar Produto">
+            <button id="cadastrar">Cadastrar</button>
+        </div>
+        
+    </header>
+    <main id="containerProdutos">
+        <div id="divCadastrar" class="divCadastrar">
+            <header class="headerCadastrar"><i id="fechar" class="fa-solid fa-xmark"></i></header>
+            <h1>Cadastre um produto!</h1>
+            <input id="inputProdutos" type="text" placeholder="Cadastre um produto">
+            <button id="btnAdd">Cadastrar</button>
+            <span id="saida"></span>
+        </div>
+        <div id="divAlterar" class="divAlterar">
+            <header class="headerAlterar"><i id="fechar2" class="fa-solid fa-xmark"></i></header>
+            <h1>Altere um produto!</h1>
+            <input id="inputAlterar" type="text" placeholder="Alterar para...">
+            <button id="btnAlterar">Alterar</button>
+            <span id="saida2"></span>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
